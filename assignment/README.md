@@ -19,22 +19,22 @@
 
 ## 2. Resources
 
-- Languages:
-  - **HTML:** http://www.w3schools.com/html/default.asp
-  - **HTML5 tags:** https://developer.mozilla.org/enUS/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
-  - **CSS:** http://www.w3schools.com/css/
-  - **Grid & Flexbox layout:** https://developer.mozilla.org/en-US/Learn/CSS/CSS_layout
-  - **SASS:** http://sass-lang.com/documentation/file.SASS_REFERENCE.html
-- CSS Methodologies:
-  - **OOCSS:** http://oocss.org/
-  - **BEM:** http://getbem.com/
-  - **SMACSS:** https://smacss.com/
-- Coding Convention and Best Practices:
+- **Languages:**
+  - HTML: http://www.w3schools.com/html/default.asp
+  - HTML5 tags: https://developer.mozilla.org/enUS/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
+  - CSS: http://www.w3schools.com/css/
+  - Grid & Flexbox layout:** https://developer.mozilla.org/en-US/Learn/CSS/CSS_layout
+  - SASS: http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+- **CSS Methodologies:**
+  - OOCSS: http://oocss.org/
+  - BEM: http://getbem.com/
+  - SMACSS: https://smacss.com/
+- **Coding Convention and Best Practices:**
   - https://github.com/kms-technology/html-best-practices
   - https://github.com/kms-technology/css
   - http://babich.biz/responsive-design-best-practices/
-- Read More:
-  - **Gulp-SASS:** https://github.com/dlmanning/gulp-sass
+- **Read More:**
+  - Gulp-SASS: https://github.com/dlmanning/gulp-sass
 
 ## 3. Tasks
 ### 3.1 Overview
