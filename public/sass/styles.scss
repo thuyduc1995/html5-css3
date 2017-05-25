@@ -1,82 +1,11 @@
-body ,html{
-  margin:0px;
-}
-
-
-nav {
-
-  .nav-h2 {
-
-    display: inline;
-    font: {
-      family: "Arial";
-      size: 2em;
-      weight: bold;
-    }
-    padding-left: 20px;
-  }
-  .nav-ul {
-    padding-top: 10px;
-    list-style-type: none;
-    float: right;
-    word-spacing: 25px;
-    color: #DCDCDC;
-    font: {
-      family: 'Arial';
-      size: 1em;
-      weight: bold;
-    }
-    margin-right: 80px;
-  }
-  .nav-li {
-    display: inline;
-    .nav-li-a:link{
-      text-decoration: none! important;
-      color: #DCDCDC;
-    }
-    .nav-li-a:hover{
-      color: black;
-    }
-    .nav-li-a:active{
-      text-decoration: underline;
-    }
-  }
-
-
-  #nav-li-signup{
-    display: inline;
-    word-spacing: 0px;
-    padding: 10px;
-    border:{
-      radius: 20px;
-      color: #F08080;
-      style: solid;
-      padding: 50px;
-    }
-  }
-}
-
-section {
-  width: 1920px;
-  height: 892px;
-  padding: 0px;
-  background-color: #DCDCDC;
-  .sec-home-h1{
-    padding-top:300px;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    font: {
-      family: 'Arial';
-      size: 2.5em;
-
-    }
-  }
-  .sec-home-p{
-    text-align: center;
-    color: white;
-  }
-}
-
-
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import "./body";
+@import "./nav";
+@import "./home";
+@import "./explore";
+@import "./pricing";
+@import "./services";
+@import "./team";
+@import "./footer";
+@import "./font";
 

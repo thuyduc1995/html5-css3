@@ -6,23 +6,132 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<nav>
-    <h2 class="nav-h2" ><span style="color:red">R</span>WD</h2>
-    <ul class="nav-ul">
-        <li class="nav-li" ><a class="nav-li-a" href="google.com">Home</a></li>
-        <li class="nav-li" ><a class="nav-li-a" href="google.com">Explore</a></li>
-        <li class="nav-li" ><a class="nav-li-a" href="google.com">Pricing</a></li>
-        <li class="nav-li" ><a class="nav-li-a" href="google.com">Services</a></li>
-        <li class="nav-li" ><a class="nav-li-a" href="google.com">Team</a></li>
-        <li id="nav-li-signup">Sign up free</li>
-    </ul>
-</nav>
+    <nav>
+        <main class="nav-main_left"><span style="color:red">R</span>WD</main>
+        <main class="nav-main_right">
+            <a href="#home" class="nav-main_right-a_normal">Home</a>
+            <a href="#explore" class="nav-main_right-a_normal">Explore</a>
+            <a href="#pricing" class="nav-main_right-a_normal">Pricing</a>
+            <a href="#services" class="nav-main_right-a_normal">Services</a>
+            <a href="#" class="nav-main_right-a_normal">Team</a>
+            <a href="#" class="nav-main_right-a_redborder">Sign up free</a>
+        </main>
+    </nav>
 
-<section class="sec-home">
-    <h1 class="sec-home-h1">rwd - responsive web design</h1>
-    <p class="sec-home-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
-    dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
-</section>
+    <section class="sec-home" id="home">
+        <main class="sec-home-main">
+            <article class="sec-home-main-art-art">rwd - responsive web design</article>
+            <p class="sec-home-main-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+                dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <dialog class="sec-home-main-dlg_normal" open>Demo</dialog>
+            <dialog class="sec-home-main-dlg_redbox" open>Download</dialog>
+        </main>
+    </section>
+
+    <section class="sec-explore" id="explore">
+        <main class="sec-explore-main_upper">
+            <article class="sec-explore-main_upper-art">Explore Our Products</article>
+            <p class="sec-explore-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+                dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
+        </main>
+        <main class="sec-explore-main_lower">
+            <img src="./images/work1.png" class="sec-explore-main_lower-image_left">
+            <section class="sec-explore-main_lower-sec_right">
+                <article class="sec-explore-main_lower-sec_right-art" id="explore__article-one">
+                    <h1 class="article__header">
+                        <span class="simple-line-icon human_icon" style="color:#87CEFA"></span>
+                        Real Project For Real Solutions
+                    </h1>
+                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa
+                    </p>
+                </article>
+                <article class="sec-explore-main_lower-sec_right-art" id="explore__article-two">
+                    <h1 class="article__header">
+                        <span class="simple-line-icon camera_icon" style="color:#87CEFA"></span>
+                        Real Project For Real Solutions
+                    </h1>
+                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa
+                    </p>
+                </article>
+                <article class="sec-explore-main_lower-sec_right-art" id="explore__article-three">
+                    <h1 class="article__header">
+                        <span class="simple-line-icon shield_icon" style="color:#87CEFA"></span>
+                        Real Project For Real Solutions
+                    </h1>
+                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa
+                    </p>
+                </article>
+            </section>
+        </main>
+    </section>
+
+    <section class="sec-pricing" id="pricing">
+        <main class="sec-pricing-main_upper">
+            <article class="sec-pricing-main_upper-art">Plans Built For Every One</article>
+            <p class="sec-pricing-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+                dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
+        </main>
+        <main class="sec-pricing-main_inter">
+            <div class="pricebox" id="pricebox_one">
+                <p class="pricebox__header">STARTER</p>
+                <p class="pricebox__price"><span style="font-size: 2.5em"><sup>$</sup>9</span><sub>/MONTH</sub></p>
+                <p class="pricebox__describe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget dolor.</p>
+                <button class="pricebox__button">SELECT PLAN</button>
+            </div>
+            <div class="pricebox" id="pricebox_two">
+                <p class="pricebox__header">BASIC</p>
+                <p class="pricebox__price"><span style="font-size: 2.5em"><sup>$</sup>27</span><sub>/MONTH</sub></p>
+                <p class="pricebox__describe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget dolor.</p>
+                <button class="pricebox__button">SELECT PLAN</button>
+            </div>
+            <div class="pricebox" id="pricebox_three">
+                <p class="pricebox__header">PRO</p>
+                <p class="pricebox__price"><span style="font-size: 2.5em"><sup>$</sup>74</span><sub>/MONTH</sub></p>
+                <p class="pricebox__describe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget dolor.</p>
+                <button class="pricebox__button" id="redbutton">SELECT PLAN</button>
+            </div>
+            <div class="pricebox" id="pricebox_four">
+                <p class="pricebox__header">UNLIMITED</p>
+                <p class="pricebox__price"><span style="font-size: 2.5em"><sup>$</sup>140</span><sub>/MONTH</sub></p>
+                <p class="pricebox__describe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget dolor.</p>
+                <button class="pricebox__button">SELECT PLAN</button>
+            </div>
+        </main>
+        <main class="sec-pricing-main_lower">
+            <article class="sec-pricing-main_lower-art">
+                <p class="sec-pricing-main_lower-art-p">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+                    dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
+                    <span style="color:red;">Learn More</span>
+                </p>
+            </article>
+        </main>
+
+
+
+
+    </section>
+
+    <section class="sec-services" id="services">
+        <main class="sec-services-main_upper">
+            <article class="sec-services-main_upper-art">We Offer Services</article>
+            <p class="sec-services-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+                dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
+        </main>
+        <main class="sec-services-main_lower">
+
+        </main>
+    </section>
 
 </body>
 </html>
