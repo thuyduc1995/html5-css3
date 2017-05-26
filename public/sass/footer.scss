@@ -1,0 +1,52 @@
+.footer{
+  width: 100%;
+  height:60%;
+  background-color: #3F5267;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  .foo-component{
+    width:22%;
+    height:80%;
+
+  }
+}
+
+.foo-header {
+  padding-top: 20px;
+  margin-top: 0px;
+  color: white;
+  font: {
+    family: "PT sans",Arial,serif;
+    size: 1.2em;
+    weight: bold;
+  }
+}
+.foo-content{
+  color:#A9A9A9;
+  font: {
+    family: "PT sans",Arial,serif;
+    size: 1em;
+
+  }
+}
+
+.foo_icon{
+  color:#87CEFA;
+  font-size: 2em;
+}
+
+.foo-form-text{
+  width:60%;
+
+  background-color: 	#F5F5F5;
+
+}
+.form-expand{
+  padding-top: 0px;
+  height: 100px;
+
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Icomoon";
+  src: url("../fonts/icomoon/icomoon.eot") format("eot"),
+  url("../fonts/icomoon/icomoon.woff") format("woff"),
+  url("../fonts/icomoon/icomoon.ttf") format("truetype"),
+  url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
+}
+@font-face {
+  font-family: "SimpleLineIcons";
+  src: url("../fonts/simple-line-icons/Simple-Line-Icons.eot") format("eot"),
+  url("../fonts/simple-line-icons/Simple-Line-Icons.woff") format("woff"),
+  url("../fonts/simple-line-icons/Simple-Line-Icons.ttf") format("truetype"),
+  url("../fonts/simple-line-icons/Simple-Line-Icons.svg#Simple-Line-Icons") format("svg");
+}
+.simple-line-icon {
+  font-family: "SimpleLineIcons";
+}
+.human_icon:before{
+  content:'\e001';
+  color:#87CEFA;
+}
+
+.camera_icon:before{
+  content:'\e07e'
+}
+.shield_icon:before{
+  content:'\e00e'
+}
+.tube_icon:before{
+  content:'\e026';
+  color:#87CEFA;
+}
+.trophy_icon:before{
+  content:'\e006';
+  color:#87CEFA;
+}
+.thunder_icon:before{
+  content:'\e020';
+  color:#87CEFA;
+}
+.airplane_icon:before{
+  content:'\e094';
+  color:#87CEFA;
+}
+.tv_icon:before{
+  content:'\e011';
+  color:#87CEFA;
+}
+.facebook_icon:before{
+  content:'\f09a';
+}
+.twitter_icon:before{
+  content:'\f099';
+}
+.ball_icon:before{
+  content:'\f17d';
+}
+.grid_icon:before{
+  content:'\f1cb';
+}
+.cart_icon:before{
+  content:'\f113';
+}
+.location_icon:before{
+  content:'\e096';
+}
+.message_icon:before{
+  content:'\e086';
+}
+.phone_icon:before{
+  content:'\e600';
+}
+.global_icon:before{
+  content:'\e037';
+}
+
+
+.icomoon-icon {
+  font-family: "Icomoon";
+}
+
+.singleline_icon:before{
+  content:'\e115';
+}
