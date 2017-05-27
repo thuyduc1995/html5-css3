@@ -79,6 +79,9 @@
   font-family: "Icomoon";
 }
 
+.toogle-icon:before{
+  content:'\e026';
+}
 .singleline_icon:before{
   content:'\e115';
 }
