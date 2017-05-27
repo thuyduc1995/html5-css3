@@ -2,75 +2,81 @@
   background-color: #E0FFFF;
   width: 100%;
   height: 100%;
-  .sec-pricing-main_upper {
-    width: 100%;
-    height: 36.34%;
-    .sec-pricing-main_upper-art {
-      text-align: center;
+  .sec-pricing-main_upper{
+    width:100%;
+    height: 30%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding-top: 60px;
+    .sec-pricing-main_upper-art{
+      margin:auto;
       color: black;
-      padding-top: 79px;
+      text-align: center;
       font: {
-        family: "PT sans", Arial, serif;
+        family: "PT sans",Arial,serif;
         size: 2.5em;
       }
+
     }
-    .sec-pricing-main_upper-p {
-      margin-left: 27%;
+    .sec-pricing-main_upper-p{
+      margin:auto;
       text-align: center;
       width: 46%;
-      padding-top: 17px;
+
       color: #A9A9A9;
       font: {
-        family: "PT sans", Arial, serif;
+        family: "PT sans",Arial,serif;
         size: 1.4em;
       }
     }
-    #singleline_icon {
-      color: #87CEFA;
-      display: table;
+    #singleline_icon{
+      color:#87CEFA;
       font-size: 4em;
-      text-align: center;
       margin: auto;
+
     }
   }
   .sec-pricing-main_inter{
       width:100%;
-      height:40%;
-
-      display: inline-flex;
+      height:auto;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
       #pricebox_one{
         @extend %pricebox;
-        margin-left: 16.1%;
+        margin-left: 20px;
       }
       #pricebox_two{
         @extend %pricebox;
-        margin-left: 1.8%;
+        margin-left: 20px;
       }
-
       #pricebox_three{
         @extend %pricebox;
-        margin-left: 1.8%;
+        margin-left: 20px;
         #redbutton{
           background-color: red;
           border-color: red;
         }
       }
-
       #pricebox_four{
         @extend %pricebox;
-        margin-left: 1.8%;
+        margin-left: 20px;
       }
-
     }
   .sec-pricing-main_lower{
     .sec-pricing-main_lower-art{
       text-align: center;
       margin-top: 60px;
       .sec-pricing-main_lower-art-p{
+
         margin-left: 33%;
         text-align: left;
         width:33%;
         color: #A9A9A9;
+
         font: {
           family: "PT sans", Arial, serif;
           size: 1.1em;
@@ -82,12 +88,10 @@
 }
 
 %pricebox{
-  height: 100%;
-  width: 15.6%;
-  background-color: white;
-  border-radius: 8px;
-
-
+   height: 350px;
+   width: 240px;
+   background-color: white;
+   border-radius: 8px;
   .pricebox__header{
     color: #808080;
     text-align: center;
@@ -131,6 +135,31 @@
     display: block;
     margin: auto;
   }
+}
 
-
+@media screen and (max-width: 480px){
+  .sec-pricing-main_inter{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #pricebox_one,#pricebox_two,#pricebox_three,#pricebox_four{
+    width:90% !important;
+    margin-top: 10px;
+  }
+  .sec-pricing-main_inter, .sec-pricing-main_upper, .sec-pricing-main_lower, .sec-pricing {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1020px){
+  .sec-pricing-main_inter{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #pricebox_one,#pricebox_two,#pricebox_three,#pricebox_four{
+    width:45% !important;
+    margin-top: 10px;
+  }
+  .sec-pricing-main_inter, .sec-pricing-main_upper, .sec-pricing-main_lower, .sec-pricing {
+    height: auto;
+  }
 }
