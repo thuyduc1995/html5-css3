@@ -2,35 +2,38 @@
   background-color: #E0FFFF;
   width: 100%;
   height:100%;
-  .sec-team-main_upper {
-    width: 100%;
-    height: 36.34%;
-    .sec-team-main_upper-art {
+  .sec-team-main_upper{
+    width:100%;
+    height: 270px;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding-top: 60px;
+    .sec-team-main_upper-art{
+      margin:auto;
       text-align: center;
       color: black;
-      padding-top: 79px;
       font: {
-        family: "PT sans", Arial, serif;
+        family: "PT sans",Arial,serif;
         size: 2.5em;
       }
     }
-    .sec-team-main_upper-p {
-      margin-left: 27%;
+    .sec-team-main_upper-p{
+      margin:auto;
       text-align: center;
       width: 46%;
-      padding-top: 17px;
       color: #A9A9A9;
       font: {
-        family: "PT sans", Arial, serif;
+        family: "PT sans",Arial,serif;
         size: 1.4em;
       }
     }
-    #singleline_icon {
-      color: #87CEFA;
-      display: table;
+    #singleline_icon{
+      color:#87CEFA;
       font-size: 4em;
-      text-align: center;
       margin: auto;
+
     }
   }
   .sec-team-main_lower{
@@ -43,7 +46,6 @@
     .team_container{
       width:100%;
       height: 80%;
-
       display: -webkit-flex;
       display: flex;
       -webkit-justify-content: center;
@@ -60,7 +62,6 @@
   margin-top: 2.6%;
   text-align: center;
   height: 90%;
-
   width:23%;
   padding: auto;
   -webkit-justify-content: center;
