@@ -4,6 +4,8 @@
   background-color: #A9A9A9;
   display: flex;
   display: -webkit-flex;
+  -webkit-align-content: center;
+  align-content: center;
   .sec-home-main{
     width: 650px;
     margin:auto;
@@ -26,16 +28,21 @@
       size: 1.4em;
     }
   }
+  .button--container{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
   .sec-home-main-dlg_normal{
     @extend %dialog;
-    margin-left: 38%;
-
+    margin-right: 20px;
     background-color: transparent;
   }
 
   .sec-home-main-dlg_redbox{
     @extend %dialog;
-    margin-right: 8%;
+
     border-color: red;
     background-color: red;
   }
@@ -44,11 +51,10 @@
 
 
 %dialog{
-  margin-top: 3%;
-  width: 8%;
-  height: 10%;
+
+  width: 200px;
+  height: 50px;
   color:white;
-  padding:auto;
   font: {
     family: "PT sans",Arial,serif;
     size: 1.2em;
@@ -59,5 +65,20 @@
     style: solid;
     radius: 3px;
   }
-  text-align: center;
+
+}
+
+.sec-home:target{
+  .sec-home-main {
+    animation: slideInFromBottom 1s ease-out 0s 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

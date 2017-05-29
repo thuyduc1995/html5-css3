@@ -127,8 +127,6 @@
   .servicesbox{
     width:100% !important;
   }
-
-
 }
 @media screen and (max-width: 1023px) and (min-width: 721px){
   .sec-services{
@@ -160,4 +158,29 @@
   #servicebox_one,#servicebox_two,#servicebox_three,#servicebox_four{
     width:40% !important;
   }
+}
+
+.sec-services:target{
+  .sec-services-main_upper,.sec-services-main_inter {
+    animation: slideInFromBottom 1s ease-out 0s 1;
+  }
+  .big_icon{
+    animation: flash 1s ease-out 1s 1;
+  }
+
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
 }

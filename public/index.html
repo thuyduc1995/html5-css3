@@ -12,7 +12,7 @@
         <main class="nav-main_right">
             <span class="icomoon-icon toogle-icon toogle"></span>
 
-            <a href="#home" class="nav-main_right-a_normal">Home</a>
+            <a href="#home" class="nav-main_right-a_normal" id="home1">Home</a>
             <a href="#explore" class="nav-main_right-a_normal">Explore</a>
             <a href="#pricing" class="nav-main_right-a_normal">Pricing</a>
             <a href="#services" class="nav-main_right-a_normal">Services</a>
@@ -27,8 +27,10 @@
             <p class="sec-home-main-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                 dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
             </p>
+            <div class="button--container">
             <button class="sec-home-main-dlg_normal">Demo</button>
             <button class="sec-home-main-dlg_redbox">Download</button>
+            </div>
         </main>
     </section>
 
@@ -188,7 +190,6 @@
         </main>
         <main class="sec-team-main_lower">
             <div class="team_container">
-
                 <div class="teambox" id="teambox_one">
                     <img src="./images/person1.png" class="circle_image">
                     <p class="teambox_header">ROGER GARFIELD</p>
@@ -252,10 +253,10 @@
             <p class="foo-header">Our Address</p>
             <span class="icomoon-icon singleline_icon foo_icon"></span>
 
-            <p class="foo-content"><span class="simple-line-icon location_icon"></span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p class="foo-content"><span class="simple-line-icon phone_icon"></span> +1235 2355 98</p>
-            <p class="foo-content"><span class="simple-line-icon message_icon"></span> info@yoursite.com</p>
-            <p class="foo-content"><span class="simple-line-icon global_icon"></span> www.yoursite.com</p>
+            <p class="foo-content"><span class="simple-line-icon location_icon foo_icon"></span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="foo-content"><span class="simple-line-icon phone_icon foo_icon"></span> +1235 2355 98</p>
+            <p class="foo-content"><span class="simple-line-icon message_icon foo_icon"></span> info@yoursite.com</p>
+            <p class="foo-content"><span class="simple-line-icon global_icon foo_icon"></span> www.yoursite.com</p>
 
             <p class="foo-header">Connect with Us</p>
             <span class="icomoon-icon singleline_icon foo_icon"></span>
@@ -265,23 +266,24 @@
             <span class="icomoon-icon ball_icon foo_icon"></span>
             <span class="icomoon-icon cart_icon foo_icon"></span>
         </main>
-
         <main class="foo-component" id="foo-right">
             <p class="foo-header">Drop us a line</p>
             <span class="icomoon-icon singleline_icon foo_icon"></span>
             <form>
                 <input type="text" value="Name" class="foo-form-text form-normal">
                 <br>
+                <br>
                 <input type="radio" value="male" checked class="foo-form-ratio"> Male
                 <input type="radio"value="female" class="foo-form-ratio"> Female
+                <br>
                 <br>
                 <input type="text" value="Email" class="foo-form-text form-normal">
                 <br>
                 <br>
-                <input type="text" value="Message" class="foo-form-text form-expand">
+                <textarea type="text" placeholder="Message" class="foo-form-text form-expand"></textarea>
                 <br>
                 <br>
-                <btn class="sec-home-main-dlg_normal">SEND MESSAGE</btn>
+                <btn class="btn-send-message">SEND MESSAGE</btn>
             </form>
         </main>
 
