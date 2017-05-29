@@ -1,0 +1,131 @@
+@media screen and (max-width: 720px){
+  .explore{
+    height: auto!important;
+  }
+  .explore__container--upper{
+    height: auto !important;
+    .explore__content--upper{
+      margin: 0 !important;
+      width: auto !important;
+    }
+  }
+  .explore__container--lower {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto !important;
+    .explore__container--lower-left{
+      width:95% !important;
+      height: auto !important;
+      margin: auto !important;
+    }
+    .explore__container--lower-right{
+      margin-left: 30px !important;
+      width:auto !important;
+    }
+  }
+
+} //explore
+@media screen and (max-width: 720px){
+  .pricing{
+    height: auto!important;
+    width: auto!important;
+  }
+  .pricing__container--upper{
+    height: auto !important;
+    .pricing__content--upper{
+      margin: 0 !important;
+      width: auto !important;
+    }
+  }
+  .pricing__container--inter{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height:auto !important;
+  }
+  #pricebox_one,#pricebox_two,#pricebox_three,#pricebox_four{
+    width:90% !important;
+    margin-top: 10px;
+    margin-left: 0! important;
+  }
+  .pricing__container--lower {
+    height: auto !important;
+    width: auto !important;
+    .pricing__header--lower{
+      width: 100% !important;
+      margin-top: 0px !important;
+    }
+    .pricing__content--lower{
+      margin-left: 20px !important;
+      text-align: start !important;
+
+      width: 100% !important;
+    }
+  }
+} //pricing
+@media screen and (max-width: 720px){
+  .services{
+    height: auto!important;
+    width: auto!important;
+  }
+  .services__container--upper{
+    height: auto !important;
+    .services__content--upper{
+      margin: 0 !important;
+      width: auto !important;
+    }
+  }
+  .services__container--inter{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height:auto !important;
+  }
+  .services__element--inter{
+    width: 100% !important;
+    padding-left: 20px;
+  }
+  .servicesbox{
+    width:100% !important;
+  }
+} //services
+@media screen and (max-width: 720px){
+  .team{
+    height: auto!important;
+    width: auto!important;
+  }
+  .team__container--upper{
+    height: auto !important;
+    .team__content--upper{
+      margin: 0 !important;
+      width: auto !important;
+    }
+  }
+
+  .team__container--inter{
+    height: auto !important;
+    .team__container{
+      height: auto !important;
+      margin-top:40px;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .teambox{
+      width:90% !important;
+      height: auto !important;
+      margin:auto;
+      margin-top: 90px;
+    }
+  }
+} //team
+@media screen and (max-width: 720px) {
+  .footer {
+    height: auto !important;
+    -webkit-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  #foo-left, #foo-middle, #foo-right {
+    height: auto !important;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+} //footer

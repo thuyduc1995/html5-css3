@@ -113,69 +113,10 @@
 }
 
 
-@media screen and (max-width: 720px){
-  .team{
-    height: auto!important;
-    width: auto!important;
-  }
-  .team__container--upper{
-    height: auto !important;
-    .team__content--upper{
-      margin: 0 !important;
-      width: auto !important;
-    }
-  }
-
-  .team__container--inter{
-    height: auto !important;
-    .team__container{
-      height: auto !important;
-      margin-top:40px;
-      -webkit-flex-wrap: wrap;
-      flex-wrap: wrap;
-    }
-    .teambox{
-      width:90% !important;
-      height: auto !important;
-      margin:auto;
-      margin-top: 90px;
-    }
-  }
-}
 
 
-@media screen and (max-width: 1023px) and (min-width: 721px){
-  .team{
-    height: auto!important;
-    width: auto!important;
-  }
-  .team__container--upper{
-    height: auto !important;
-    .team__content--upper{
-      margin: 0 !important;
-      width: auto !important;
-    }
-  }
 
-  .team__container--inter{
-    height: auto !important;
-    .team__container{
-      height: auto !important;
-      margin-top:40px;
-      -webkit-flex-wrap: wrap;
-      flex-wrap: wrap;
-    }
-    .teambox{
-      width:90% !important;
-      height: auto !important;
-      margin:auto;
-      margin-top: 90px;
-    }
-  }
-  #teambox_one, #teambox_two{
-    width: 45% !important;
-  }
-}
+
 
 .team:target{
   .team__container--inter {
@@ -183,14 +124,5 @@
   }
   .big_icon{
     animation: flash 1s ease-out 1s 1;
-  }
-
-}
-@keyframes slideInFromBottom {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
