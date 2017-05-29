@@ -7,70 +7,69 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <main class="nav-main_left"><span style="color:red">R</span>WD</main>
-        <main class="nav-main_right">
+    <nav class="nav">
+        <main class="nav__container--left"><span style="color:red">R</span>WD</main>
+        <main class="nav__container--right">
             <span class="icomoon-icon toogle-icon toogle"></span>
-
-            <a href="#home" class="nav-main_right-a_normal" id="home1">Home</a>
-            <a href="#explore" class="nav-main_right-a_normal">Explore</a>
-            <a href="#pricing" class="nav-main_right-a_normal">Pricing</a>
-            <a href="#services" class="nav-main_right-a_normal">Services</a>
-            <a href="#team" class="nav-main_right-a_normal">Team</a>
-            <a href="#" class="nav-main_right-a_redborder">Sign up free</a>
+            <a href="#home" class="nav__elem--right--normal" id="home1">Home</a>
+            <a href="#explore" class="nav__elem--right--normal">Explore</a>
+            <a href="#pricing" class="nav__elem--right--normal">Pricing</a>
+            <a href="#services" class="nav__elem--right--normal">Services</a>
+            <a href="#team" class="nav__elem--right--normal">Team</a>
+            <a href="#" class="nav__elem--right--red-border">Sign up free</a>
         </main>
     </nav>
 
-    <section class="sec-home" id="home">
-        <main class="sec-home-main">
-            <article class="sec-home-main-art">rwd - responsive web design</article>
-            <p class="sec-home-main-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+    <section class="home" id="home">
+        <main class="home__container">
+            <article class="home__header">rwd - responsive web design</article>
+            <p class="home__content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                 dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
             </p>
-            <div class="button--container">
-            <button class="sec-home-main-dlg_normal">Demo</button>
-            <button class="sec-home-main-dlg_redbox">Download</button>
+            <div class="home__button-container">
+            <button class="home__button--normal">Demo</button>
+            <button class="home__button--redbox">Download</button>
             </div>
         </main>
     </section>
 
-    <section class="sec-explore" id="explore">
-        <main class="sec-explore-main_upper">
-            <article class="sec-explore-main_upper-art">Explore Our Products</article>
-            <p class="sec-explore-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+    <section class="explore" id="explore">
+        <main class="explore__container--upper">
+            <article class="explore__header--upper">Explore Our Products</article>
+            <p class="explore__content--upper">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                 dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
             </p>
             <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
         </main>
-        <main class="sec-explore-main_lower">
-            <section class="sec-explore-main_lower-sec_left">
-                <img src="./images/work1.png" class="sec-explore-main_lower-image_left">
+        <main class="explore__container--lower">
+            <section class="explore__container--lower-left">
+                <img src="./images/work1.png" class="explore__image--lower-left">
             </section>
-            <section class="sec-explore-main_lower-sec_right">
-                <div class="sec-explore-main_lower-sec_right-art" id="explore__article-one">
-                    <h1 class="article__header">
+            <section class="explore__container--lower-right">
+                <div class="explore__element--lower-right" id="explore__article-one">
+                    <h1 class="explore__header--lower-right">
                         <span class="simple-line-icon human_icon" style="color:#87CEFA"></span>
                         Real Project For Real Solutions
                     </h1>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    <p class="explore__content--lower-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                         ligula eget dolor. Aenean massa
                     </p>
                 </div>
-                <div class="sec-explore-main_lower-sec_right-art" id="explore__article-two">
-                    <h1 class="article__header">
+                <div class="explore__element--lower-right" id="explore__article-two">
+                    <h1 class="explore__header--lower-right">
                         <span class="simple-line-icon camera_icon" style="color:#87CEFA"></span>
                         Real Project For Real Solutions
                     </h1>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    <p class="explore__content--lower-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                         ligula eget dolor. Aenean massa
                     </p>
                 </div>
-                <div class="sec-explore-main_lower-sec_right-art" id="explore__article-three">
-                    <h1 class="article__header">
+                <div class="explore__element--lower-right" id="explore__article-three">
+                    <h1 class="explore__header--lower-right">
                         <span class="simple-line-icon shield_icon" style="color:#87CEFA"></span>
                         Real Project For Real Solutions
                     </h1>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    <p class="explore__content--lower-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                         ligula eget dolor. Aenean massa
                     </p>
                 </div>
@@ -78,15 +77,15 @@
         </main>
     </section>
 
-    <section class="sec-pricing" id="pricing">
-        <main class="sec-pricing-main_upper">
-            <article class="sec-pricing-main_upper-art">Plans Built For Every One</article>
-            <p class="sec-pricing-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+    <section class="pricing" id="pricing">
+        <main class="pricing__container--upper">
+            <article class="pricing__header--upper">Plans Built For Every One</article>
+            <p class="pricing__content--upper">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                 dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
             </p>
             <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
         </main>
-        <main class="sec-pricing-main_inter">
+        <main class="pricing__container--inter">
             <div class="pricebox" id="pricebox_one">
                 <p class="pricebox__header">STARTER</p>
                 <p class="pricebox__price"><span style="font-size: 2.5em"><sup>$</sup>9</span><sub>/MONTH</sub></p>
@@ -112,31 +111,27 @@
                 <button class="pricebox__button">SELECT PLAN</button>
             </div>
         </main>
-        <main class="sec-pricing-main_lower">
-            <article class="sec-pricing-main_lower-art">
-                <p class="sec-pricing-main_lower-art-p">
+        <main class="pricing__container--lower">
+            <article class="pricing__header--lower">
+                <p class="pricing__content--lower">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                     dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
                     <span style="color:red;">Learn More</span>
                 </p>
             </article>
         </main>
-
-
-
-
     </section>
 
-    <section class="sec-services" id="services" >
-        <main class="sec-services-main_upper">
-            <article class="sec-services-main_upper-art">We Offer Services</article>
-            <p class="sec-services-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+    <section class="services" id="services" >
+        <main class="services__container--upper">
+            <article class="services__header--upper">We Offer Services</article>
+            <p class="services__content--upper">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                 dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
             </p>
             <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
         </main>
-        <main class="sec-services-main_inter">
-            <div class="services_container">
+        <main class="services__container--inter">
+            <div class="services__element--inter">
                 <div class="servicesbox" id="servicebox_one">
                     <sub><span class="simple-line-icon tube_icon big_icon"></span></sub>
                     <sup><p class="servicesbox_header">Hand-crafted with Detailed</p></sup>
@@ -175,21 +170,21 @@
                 </div>
             </div>
         </main>
-        <main class="sec-services-main_lower">
-            <button class="pricebox__button">LEARN MORE</button>
+        <main class="services__container--lower">
+            <button class="services__button--lower">LEARN MORE</button>
         </main>
     </section>
 
-    <section class="sec-team" id="team">
-        <main class="sec-team-main_upper">
-            <article class="sec-team-main_upper-art">Meet The Team</article>
-            <p class="sec-team-main_upper-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
+    <section class="team" id="team">
+        <main class="team__container--upper">
+            <article class="team__header--upper">Meet The Team</article>
+            <p class="team__content--upper">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comodo ligula eget
                 dolor. Aenean massa. Cum socils notoque perntibus er magnis dis parturient montes, nascetur ridiculus mus.
             </p>
             <span class="icomoon-icon singleline_icon" id="singleline_icon"></span>
         </main>
-        <main class="sec-team-main_lower">
-            <div class="team_container">
+        <main class="team__container--inter">
+            <div class="team__container">
                 <div class="teambox" id="teambox_one">
                     <img src="./images/person1.png" class="circle_image">
                     <p class="teambox_header">ROGER GARFIELD</p>
@@ -280,7 +275,7 @@
                 <input type="text" value="Email" class="foo-form-text form-normal">
                 <br>
                 <br>
-                <textarea type="text" placeholder="Message" class="foo-form-text form-expand"></textarea>
+                <textarea type="text" class="foo-form-text form-expand">Message</textarea>
                 <br>
                 <br>
                 <btn class="btn-send-message">SEND MESSAGE</btn>

@@ -1,4 +1,4 @@
-.sec-home {
+.home {
   width: 100%;
   height: 100%;
   background-color: #A9A9A9;
@@ -6,12 +6,12 @@
   display: -webkit-flex;
   -webkit-align-content: center;
   align-content: center;
-  .sec-home-main{
+  .home__container{
     width: 650px;
     margin:auto;
   }
 
-  .sec-home-main-art {
+  .home__header {
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -20,7 +20,7 @@
       size: 40px;
     }
   }
-  .sec-home-main-p {
+  .home__content {
     text-align: center;
     color: white;
     font: {
@@ -28,21 +28,20 @@
       size: 1.4em;
     }
   }
-  .button--container{
+  .home__button-container{
     display: flex;
     display: -webkit-flex;
     -webkit-justify-content: center;
     justify-content: center;
   }
-  .sec-home-main-dlg_normal{
-    @extend %dialog;
+  .home__button--normal{
+    @extend %home__button;
     margin-right: 20px;
     background-color: transparent;
   }
 
-  .sec-home-main-dlg_redbox{
-    @extend %dialog;
-
+  .home__button--redbox{
+    @extend %home__button;
     border-color: red;
     background-color: red;
   }
@@ -50,8 +49,7 @@
 }
 
 
-%dialog{
-
+%home__button{
   width: 200px;
   height: 50px;
   color:white;
@@ -60,16 +58,14 @@
     size: 1.2em;
     weight: bold;
   }
-
   border:{
     style: solid;
     radius: 3px;
   }
-
 }
 
-.sec-home:target{
-  .sec-home-main {
+.home:target{
+  .home__container {
     animation: slideInFromBottom 1s ease-out 0s 1;
   }
 }

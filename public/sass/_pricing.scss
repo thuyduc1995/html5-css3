@@ -1,8 +1,8 @@
-.sec-pricing {
+.pricing {
   background-color: #E0FFFF;
   width: 100%;
   height: 100%;
-  .sec-pricing-main_upper{
+  .pricing__container--upper{
     width:100%;
     height: 270px;
     display: flex;
@@ -10,7 +10,7 @@
     -webkit-flex-direction: column;
     flex-direction: column;
     padding-top: 60px;
-    .sec-pricing-main_upper-art{
+    .pricing__header--upper{
       margin:auto;
       text-align: center;
       color: black;
@@ -19,7 +19,7 @@
         size: 2.5em;
       }
     }
-    .sec-pricing-main_upper-p{
+    .pricing__content--upper{
       margin:auto;
       text-align: center;
       width: 46%;
@@ -36,7 +36,7 @@
 
     }
   }
-  .sec-pricing-main_inter{
+  .pricing__container--inter{
       width:100%;
       height:auto;
       display: -webkit-flex;
@@ -64,11 +64,11 @@
         margin-left: 20px;
       }
     }
-  .sec-pricing-main_lower{
-    .sec-pricing-main_lower-art{
+  .pricing__container--lower{
+    .pricing__header--lower{
       text-align: center;
       margin-top: 60px;
-      .sec-pricing-main_lower-art-p{
+      .pricing__content--lower{
         margin-left: 33%;
         text-align: left;
         width:33%;
@@ -89,6 +89,12 @@
    width: 240px;
    background-color: white;
    border-radius: 8px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
   .pricebox__header{
     color: #808080;
     text-align: center;
@@ -118,7 +124,6 @@
     background-color: #66ccff;
     color: white;
     margin: auto;
-    align-content: center;
     padding: 10px 10px 10px 10px;
     font: {
       family: "PT sans", Arial, serif;
@@ -134,18 +139,18 @@
 }
 
 @media screen and (max-width: 720px){
-  .sec-pricing{
+  .pricing{
     height: auto!important;
     width: auto!important;
   }
-  .sec-pricing-main_upper{
+  .pricing__container--upper{
     height: auto !important;
-    .sec-pricing-main_upper-p{
+    .pricing__content--upper{
       margin: 0 !important;
       width: auto !important;
     }
   }
-  .sec-pricing-main_inter{
+  .pricing__container--inter{
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     height:auto !important;
@@ -155,14 +160,14 @@
     margin-top: 10px;
     margin-left: 0! important;
   }
-  .sec-pricing-main_lower {
+  .pricing__container--lower {
     height: auto !important;
     width: auto !important;
-    .sec-pricing-main_lower-art{
+    .pricing__header--lower{
       width: 100% !important;
       margin-top: 0px !important;
     }
-    .sec-pricing-main_lower-art-p{
+    .pricing__content--lower{
       margin-left: 20px !important;
       text-align: start !important;
 
@@ -171,18 +176,18 @@
   }
 }
 @media screen and (max-width: 1023px) and (min-width: 721px){
-  .sec-pricing{
+  .pricing{
     height: auto!important;
     width: auto!important;
   }
-  .sec-pricing-main_upper{
+  .pricing__container--upper{
     height: auto !important;
-    .sec-pricing-main_upper-p{
+    .pricing__content--upper{
       margin: 0 !important;
       width: auto !important;
     }
   }
-  .sec-pricing-main_inter{
+  .pricing__container--inter{
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -190,14 +195,14 @@
     width:45% !important;
     margin-top: 10px;
   }
-  .sec-pricing-main_lower {
+  .pricing__container--lower {
     height: auto !important;
     width: auto !important;
-    .sec-pricing-main_lower-art{
+    .pricing__header--lower{
       width: 100% !important;
       margin-top: 0px !important;
     }
-    .sec-pricing-main_lower-art-p{
+    .pricing__content--lower{
       margin-left: 20px !important;
       text-align: start !important;
       width: 100% !important;
@@ -206,8 +211,8 @@
 }
 
 
-.sec-pricing:target{
-  .sec-pricing-main_inter {
+.pricing:target{
+  .pricing__container--inter {
     animation: slideInFromBottom 1s ease-out 0s 1;
   }
 

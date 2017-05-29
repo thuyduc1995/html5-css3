@@ -1,8 +1,8 @@
-.sec-services {
+.services {
   background-color: white;
   width: 100%;
   height:100%;
-  .sec-services-main_upper{
+  .services__container--upper{
     width:100%;
     height: 270px;
     display: flex;
@@ -10,7 +10,7 @@
     -webkit-flex-direction: column;
     flex-direction: column;
     padding-top: 60px;
-    .sec-services-main_upper-art{
+    .services__header--upper{
       margin:auto;
       text-align: center;
       color: black;
@@ -19,7 +19,7 @@
         size: 2.5em;
       }
     }
-    .sec-services-main_upper-p{
+    .services__content--upper{
       margin:auto;
       text-align: center;
       width: 46%;
@@ -36,14 +36,14 @@
 
     }
   }
-  .sec-services-main_inter{
+  .services__container--inter{
     width:100%;
     height:50%;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-    .services_container{
+    .services__element--inter{
       width:70%;
       height: 100%;
       display: -webkit-flex;
@@ -53,6 +53,12 @@
       -webkit-flex-direction: column;
       flex-direction: column;
     }
+  }
+  .services__container--lower{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -83,12 +89,10 @@
 
 }
 
-.pricebox__button{
+.services__button--lower{
   background-color: #66ccff;
-  margin: 0 auto;
   color: white;
-  align-content: center;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   font: {
     family: "PT sans", Arial, serif;
     size: 1em;
@@ -98,29 +102,28 @@
     color:#66ccff;
     radius: 5px;
   }
-  display: block;
-  margin: auto;
+
 }
 
 @media screen and (max-width: 720px){
-  .sec-services{
+  .services{
     height: auto!important;
     width: auto!important;
   }
-  .sec-services-main_upper{
+  .services__container--upper{
     height: auto !important;
-    .sec-services-main_upper-p{
+    .services__header--upper{
       margin: 0 !important;
       width: auto !important;
     }
   }
-  .sec-sevices-main_inter{
+  .services__container--inter{
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     height:auto !important;
 
   }
-  .services_container{
+  .services__element--inter{
     width: 100% !important;
     padding-left: 20px;
   }
@@ -129,23 +132,23 @@
   }
 }
 @media screen and (max-width: 1023px) and (min-width: 721px){
-  .sec-services{
+  .services{
     height: auto!important;
     width: auto!important;
   }
-  .sec-services-main_upper{
+  .services__container--upper{
     height: auto !important;
-    .sec-services-main_upper-p{
+    .services__header--upper{
       margin: 0 !important;
       width: auto !important;
     }
   }
-  .sec-sevices-main_inter{
+  .services__container--inter{
     height:auto !important;
     -webkit-justify-content: center !important;
     justify-content: center !important;
   }
-  .services_container{
+  .services__element--inter{
     width: 100% !important;
     padding-left: 20px;
     -webkit-flex-direction: row !important;
@@ -160,8 +163,8 @@
   }
 }
 
-.sec-services:target{
-  .sec-services-main_upper,.sec-services-main_inter {
+.services:target{
+  .services__container--upper,.services__container--inter {
     animation: slideInFromBottom 1s ease-out 0s 1;
   }
   .big_icon{

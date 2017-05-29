@@ -1,8 +1,8 @@
-.sec-team {
+.team {
   background-color: #E0FFFF;
   width: 100%;
   height:100%;
-  .sec-team-main_upper{
+  .team__container--upper{
     width:100%;
     height: 270px;
     display: flex;
@@ -10,7 +10,7 @@
     -webkit-flex-direction: column;
     flex-direction: column;
     padding-top: 60px;
-    .sec-team-main_upper-art{
+    .team__header--upper{
       margin:auto;
       text-align: center;
       color: black;
@@ -19,7 +19,7 @@
         size: 2.5em;
       }
     }
-    .sec-team-main_upper-p{
+    .team__content--upper{
       margin:auto;
       text-align: center;
       width: 46%;
@@ -36,14 +36,14 @@
 
     }
   }
-  .sec-team-main_lower{
+  .team__container--inter{
     width:100%;
     height:63.66%;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-    .team_container{
+    .team__container{
       width:100%;
       height: 80%;
       display: -webkit-flex;
@@ -114,11 +114,11 @@
 
 
 @media screen and (max-width: 720px){
-  .sec-team{
+  .team{
     height: auto!important;
     width: auto!important;
   }
-  .sec-team-main_upper{
+  .team__container--upper{
     height: auto !important;
     .sec-team-main_upper-p{
       margin: 0 !important;
@@ -126,9 +126,9 @@
     }
   }
 
-  .sec-team-main_lower{
+  .team__container--inter{
     height: auto !important;
-    .team_container{
+    .team__container{
       height: auto !important;
       margin-top:40px;
       -webkit-flex-wrap: wrap;
@@ -145,11 +145,11 @@
 
 
 @media screen and (max-width: 1023px) and (min-width: 721px){
-  .sec-team{
+  .team{
     height: auto!important;
     width: auto!important;
   }
-  .sec-team-main_upper{
+  .team__container--upper{
     height: auto !important;
     .sec-team-main_upper-p{
       margin: 0 !important;
@@ -157,9 +157,9 @@
     }
   }
 
-  .sec-team-main_lower{
+  .team__container--inter{
     height: auto !important;
-    .team_container{
+    .team__container{
       height: auto !important;
       margin-top:40px;
       -webkit-flex-wrap: wrap;
@@ -177,8 +177,8 @@
   }
 }
 
-.sec-team:target{
-  .sec-team-main_lower {
+.team:target{
+  .team__container--inter {
     animation: slideInFromBottom 1s ease-out 0s 1;
   }
   .big_icon{
